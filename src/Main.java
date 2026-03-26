@@ -11,7 +11,7 @@ public class Main {
         int amount = scan.nextInt();
         System.out.println("\nEnter numbers: ");
         double avg = Tasks.task2(scan, amount) / amount;
-        System.out.println("Среднее: " + avg);
+        System.out.println("Average: " + avg);
 
         System.out.println("\nTask 3");
         System.out.print("Enter a number");
