@@ -14,7 +14,7 @@ public class Main {
         System.out.println("Average: " + avg);
 
         System.out.println("\nTask 3");
-        System.out.print("Enter a number");
+        System.out.print("Enter a number: ");
         int number = scan.nextInt();
         System.out.println(Tasks.task3(number, 2) ? "Prime" : "Composite");
 
@@ -30,7 +30,7 @@ public class Main {
         System.out.print("Enter a base a and a power n: ");
         System.out.println("Result: " + Tasks.task6(scan.nextInt(), scan.nextInt()));
 
-        System.out.println("\nTask 7:");
+        System.out.println("\nTask 7: ");
         System.out.print("Enter a number of numbers: ");
         int i = scan.nextInt();
         System.out.println("Enter a sequence of numbers: ");
